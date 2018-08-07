@@ -73,6 +73,12 @@ $(document).ready(function(){
 
     $(".button").on("click", function(){
         $("#status").text("");
+
+        if(started === false){
+            alert("Press 's' to start!");
+            $("#score").text("");
+        }
+
         if(totalScore === goal){
             $("#status").text("YOU WIN!");
             wins++;
