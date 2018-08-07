@@ -13,11 +13,16 @@
 </head>
 <body>   
     <h1>Find the Dragon Balls!</h1>
+    <h3 id = "wins">Wins: 0</h3>
+    <h3 id = "wins">Losses: 0</h3>
     <div class = "container">
      
         <div id = "instructions">Press the following buttons and try to reach the goal! Pay attention to the value of each Dragon Ball when you click it! It does not correspond to the number of stars!<p>Press "s" to start!</p></div>
-        <h2>You have to achieve the following score!</h2>
-        <h2 id = "goal"></h2>
+        <div class = "wrapper">
+            <h2>You have to achieve the following score!</h2>
+            <h2 id = "goal"></h2>
+        </div>
+        
 
         <h2 id = "status"></h2>
 
@@ -27,9 +32,11 @@
             <div class = "button" id = "crystalThree"></div>
             <div class = "button" id = "crystalFour"></div>
 
+        </div>
+        <div class = "wrapper">
+            <h3>Your total score is: </h3>
+            <div id = "score"></div>
         </div>  
-        <h3>Your total score is:</h2>
-        <div id = "score"></div>
     </div>  
     <!-- <div class = "buttons"></div>
     <div class = "buttons"></div>

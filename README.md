@@ -59,7 +59,8 @@ On-click functions are vital for applications that rely heavily on user manipula
 
 # Learning points
 <!-- Learning points where you would write what you thought was helpful -->
-* 
+* Event handlers are an extremely useful tool to interact with the user interface, and jQuery expedites the process
+* Arrays provide a versalite data structure that can be easily manipulated and reset for applications that require a constant refreshing of values
 
 
 ## Authors

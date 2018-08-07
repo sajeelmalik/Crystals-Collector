@@ -17,16 +17,39 @@ h1 {
 
 #instructions{
     font-size: 24px;
+    margin: 0px 10px 0px 10px;
+}
+
+.wrapper{
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    opacity: .9;
+    border-radius: 25px;
 }
 
 #goal, #score {
     font-family: 'Anton', sans-serif;
-    font-size: 40px;
+    font-size: 60px;
     color: rgba(255, 169, 10, 0.897);
+    text-align: center;
+    opacity: 1.0;
+
 }
 
 h2, h3 {
+    text-align: center;
     font-family: 'Roboto', sans-serif;
+}
+
+#wins, #losses{
+    float: left;
+    padding: 10px;
+    opacity: .9;
+    border-radius: 25px;
+    background-color: white;
+    width: 105px;
 }
 
 /* add hover animations */
@@ -66,7 +89,7 @@ h2, h3 {
 #crystalOne {
     height: 200px;
     width: 200px;
-    background-image: url("../images/ball1.png");
+    background-image: url("../images/ball11.png");
     /* display: block; */
     background-repeat: no-repeat;
     background-size: 200px 200px;
@@ -100,4 +123,5 @@ h2, h3 {
 .buttons{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
