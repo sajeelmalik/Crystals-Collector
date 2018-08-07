@@ -18,6 +18,7 @@ $(document).ready(function(){
 
     // resets all the fundamental variables to the initial values
     function restart(){
+            
             totalScore = 0;
             crystalInt = [];
 
@@ -28,6 +29,7 @@ $(document).ready(function(){
             goal = (Math.floor(Math.random()*102) + 19);
             $("#goal").text(goal);
             console.log(goal);
+            
     }
 
     // starts the game when s is pressed
@@ -37,6 +39,7 @@ $(document).ready(function(){
         if(started === false && input.key.toLowerCase() === 's'){
             restart();
             started = true;
+            $("p").text("");
         }
     }
 
@@ -69,15 +72,20 @@ $(document).ready(function(){
     // checks if player has won or lost
 
     $(".button").on("click", function(){
+        $("#status").text("");
         if(totalScore === goal){
             $("#status").text("YOU WIN!");
             wins++;
+            console.log("Wins: " + wins);
+            $("#wins").html("Wins: " + wins);
             restart();
         }
 
         else if(totalScore > goal){
             $("#status").text("YOU LOSE! Try again!");
             losses++;
+            console.log("Losses: " + losses);
+            $("#losses").html("Losses: " + losses);
             restart();
         }
     });
