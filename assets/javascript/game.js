@@ -67,8 +67,8 @@ $(document).ready(function(){
     });
 
     // checks if player has won or lost
-    
-    $("button").on("click", function(){
+
+    $(".button").on("click", function(){
         if(totalScore === goal){
             $("#status").text("YOU WIN!");
             wins++;
@@ -76,7 +76,7 @@ $(document).ready(function(){
         }
 
         else if(totalScore > goal){
-            $("#status").text("YOU LOSE!");
+            $("#status").text("YOU LOSE! Try again!");
             losses++;
             restart();
         }

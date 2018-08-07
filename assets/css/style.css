@@ -1,0 +1,103 @@
+body {
+    background-image: url("../images/kami.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    opacity: 0.9;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    background: white;
+    text-align: center;
+    color: rgba(236, 157, 10, 0.897);
+    opacity: 0.9;
+    font-size: 54px;
+}
+
+#instructions{
+    font-size: 24px;
+}
+
+#goal, #score {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    color: rgba(255, 169, 10, 0.897);
+}
+
+h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* add hover animations */
+
+.button:hover {
+    animation-name: dragonball;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+}
+
+@keyframes dragonball {
+    0% {
+        transform: rotateY(0deg);
+        opacity: .8;
+    }
+    25%{
+        opacity: .95;
+    }
+    50% {
+        transform: rotateY(180deg);
+        opacity: .7;
+    }
+    75%{
+        opacity: .95;
+    }
+    100% {
+        opacity: .8;
+        transform: rotateY(360deg);
+    }
+  }
+
+/* .button:active {
+    opacity: .5;
+    transform: rotateY(180deg)
+} */
+
+#crystalOne {
+    height: 200px;
+    width: 200px;
+    background-image: url("../images/ball1.png");
+    /* display: block; */
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+#crystalTwo {
+    height: 200px;
+    width: 200px;
+    background-image: url("../images/ball3.png");
+    /* display: block; */
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+#crystalThree {
+    height: 200px;
+    width: 200px;
+    background-image: url("../images/ball4.png");
+    /* display: block; */
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+#crystalFour {
+    height: 200px;
+    width: 200px;
+    background-image: url("../images/ball7.png");
+    /* display: block; */
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
