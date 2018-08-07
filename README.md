@@ -1,4 +1,4 @@
-# Crystals-Collector
+# Dragon Ball Collector
 
 Click the Dragon Balls and try to achieve the given score!
 
@@ -13,12 +13,12 @@ Follow the deployed project link below to play the game!
 ### Deployed Project Link
 <!-- make a link to the deployed site -->
  
-[Crystals Collector](https://sajeelmalik.github.io/Crystals-Collector/)
+[Dragon Ball Collector](https://sajeelmalik.github.io/Crystals-Collector/)
 
 
-### Image Preview of Word Guess Game
+### Image Preview of Dragon Ball Collector 
 <!-- take a picture of the image and add it into the readme  -->
-![Crystals Collector]( "Dragon Ball Challenge")
+![Crystals Collector](https://raw.githubusercontent.com/sajeelmalik/Crystals-Collector/master/assets/images/preview.JPG "Dragon Ball Challenge")
 
 ## Prerequisites
 
