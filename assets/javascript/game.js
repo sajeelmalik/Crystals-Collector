@@ -71,12 +71,15 @@ $(document).ready(function(){
 
     // checks if player has won or lost
 
+    var goku = new Audio("assets/ss3.mp3");
+
     $(".button").on("click", function(){
         $("#status").text("");
-
+        goku.play();
         if(started === false){
             alert("Press 's' to start!");
             $("#score").text("");
+            
         }
 
         if(totalScore === goal){

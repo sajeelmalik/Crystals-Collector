@@ -57,6 +57,11 @@ h2, h3 {
     background-color: white;
     width: 105px;
 }
+/* #wins:hover {
+    box-shadow: -50px 10px 30px rgba(0, 0, 0, 0);
+    border: 10px solid orange;
+    transition: 1s ease;
+} */
 
 /* add hover animations */
 
